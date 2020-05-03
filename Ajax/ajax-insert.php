@@ -99,7 +99,7 @@
          				$.ajax({
          					url :"db-ajax-insert.php",
          					type : "POST",
-// data is in `KEY & VALUE paire, use KEY in php file`
+// data is in `KEY & VALUE pair, use KEY in php file`
          					data : {first_name: fname, last_name: lname},
          					success : function(data){
          						if (data == 1) {
@@ -123,7 +123,7 @@
          				$.ajax({
          					url:"ajax-delete.php",
          					type:"POST",
-// data is in `KEY & VALUE paire, use KEY in php file`
+// data is in `KEY & VALUE pair, use KEY in php file`
          					data : {delete_id : studentId},
          					success : function(data){
          						if (data == 1) {
